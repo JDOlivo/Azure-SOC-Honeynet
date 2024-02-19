@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet + SOC](https://github.com/JDOlivo/Azure-SOC/assets/146149824/06afca8e-3655-43e2-9427-234ac55e191e)
+![Cloud Honeynet + SOC](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/12cdde36-4f1e-4a1c-80a8-fae9c9dca6a7)
+
 
 ## Introduction
 
@@ -12,10 +13,12 @@ In this project, I designed and deployed a mini honeynet within an Azure environ
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Cloud Honeynet + SOC PG2](https://github.com/JDOlivo/Azure-SOC/assets/146149824/1e4f1efe-5726-4f11-bdae-83f3e9153eb3)
+![Cloud Honeynet + SOC PG2](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/a700558b-bd44-4f75-9f84-ae7acd6ef574)
+
 
 ## Architecture After Hardening / Security Controls
-![Secured Network](https://github.com/JDOlivo/Azure-SOC/assets/146149824/dc3ebf9d-774e-49af-8344-2c411a5f4d93)
+![Secured Network](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/583f697a-4d8b-4e63-b723-674d38d8d9fb)
+
 
 The Azure-based mini honeynet's structure comprises the subsequent components:
 
@@ -33,9 +36,10 @@ In the "AFTER" metrics assessment, Network Security Groups were strengthened by 
 
 
 ## Attack Maps Before Hardening / Security Controls
-![nsg-malicious-allowed-in-before](https://github.com/JDOlivo/Azure-SOC/assets/146149824/694ceff7-589a-4ed1-ab4f-916c375c11c9) <br>
-![syslog-ssh-auth-fail-before](https://github.com/JDOlivo/Azure-SOC/assets/146149824/cfb49fd6-f444-4e31-b8ae-2c7adcefd40f) <br>
-![windows-rdp-auth-fail-before](https://github.com/JDOlivo/Azure-SOC/assets/146149824/c7ea98e2-beee-4ae6-b453-0d3b5a5faf4a) <br>
+![nsg-malicious-allowed-in-before](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/e01e6aff-ec0a-45c0-88ee-b514360f5f2a) <br>
+![syslog-ssh-auth-fail-before](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/7125b6a1-a1eb-4548-9f4c-73f85c3d2e60) <br>
+![windows-rdp-auth-fail-before](https://github.com/JDOlivo/Azure-SOC-Honeynet/assets/146149824/bc954f90-2651-4598-b1cc-c1ecd5665707) <br>
+
 
 ## Metrics Before Hardening / Security Controls
 
